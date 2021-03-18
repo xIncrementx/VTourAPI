@@ -11,7 +11,8 @@ DROP TABLE Tours;
 DROP DATABASE TourDb;
 CREATE DATABASE TourDb;
 
-USE TourDb;
+
+
 --User
 CREATE TABLE Cities (
 	PostalCode integer,

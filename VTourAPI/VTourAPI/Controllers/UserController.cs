@@ -14,7 +14,7 @@ namespace VTourAPI.Controllers
 
         // GET api/<UserController>
         [HttpGet("{mail}")]
-        public User Get(string mail) => this.userRepository.ReadUser(mail);
+        public  User Get(string mail) =>  this.userRepository.ReadUser(mail);
 
         // POST api/<UserController>
         [HttpPost]

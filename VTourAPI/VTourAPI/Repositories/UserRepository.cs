@@ -6,7 +6,7 @@ namespace VTourAPI.Repositories
 {
     public class UserRepository
     {
-        private const string ConnectionString = "Server=localhost/SQLEXPRESS;Database=master;Trusted_Connection=True;";
+        private const string ConnectionString = "Server=localhost\\SQLEXPRESS;Database=TourDb;Trusted_Connection=True;User Id=VtourAdmin;Password=1234;";
 
         public void CreateUser(User user)
         {
