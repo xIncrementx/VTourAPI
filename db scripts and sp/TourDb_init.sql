@@ -28,6 +28,7 @@ CREATE TABLE Users (
 	Surname varchar(255),
 	PostalCode integer,
 	Streetaddress varchar(255),
+	Country varchar(255),
 	PRIMARY KEY (Id),
 	FOREIGN KEY (PostalCode) REFERENCES Cities(PostalCode)
 );
